@@ -68,40 +68,45 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:textSize="24sp" />
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="あ"
+                android:text="ア"
                 android:textSize="24sp" />
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="い"
+                android:text="イ"
                 android:textSize="24sp" />
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="う"
+                android:text="ウ"
                 android:textSize="24sp" />
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="え"
+                android:text="エ"
                 android:textSize="24sp" />
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="お"
+                android:text="オ"
                 android:textSize="24sp" />
         </TableRow>
         <!-- K- -->
@@ -121,10 +126,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="か"
+                    android:text="カ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -140,10 +146,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="き"
+                    android:text="キ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -159,10 +166,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="く"
+                    android:text="ク"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -178,10 +186,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="け"
+                    android:text="ケ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -196,10 +205,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="こ"
+                    android:text="コ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -225,10 +235,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="さ"
+                    android:text="サ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -243,10 +254,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="し"
+                    android:text="シ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -261,10 +273,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="す"
+                    android:text="ス"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -279,10 +292,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="せ"
+                    android:text="セ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -297,10 +311,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="そ"
+                    android:text="ソ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -327,10 +342,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="た"
+                    android:text="タ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -345,10 +361,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ち"
+                    android:text="チ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -363,10 +380,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="つ"
+                    android:text="ツ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -381,10 +399,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="て"
+                    android:text="テ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -399,10 +418,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="と"
+                    android:text="ト"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -431,10 +451,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="な"
+                    android:text="ナ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -449,10 +470,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="に"
+                    android:text="ニ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -467,10 +489,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ぬ"
+                    android:text="ヌ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -485,10 +508,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ね"
+                    android:text="ネ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -503,10 +527,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="の"
+                    android:text="ノ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -533,10 +558,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="は"
+                    android:text="ハ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -551,10 +577,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ひ"
+                    android:text="ヒ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -569,10 +596,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ふ"
+                    android:text="フ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -587,10 +615,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="へ"
+                    android:text="ヘ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -605,10 +634,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ほ"
+                    android:text="ホ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -636,10 +666,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ま"
+                    android:text="マ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -654,10 +685,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="み"
+                    android:text="ミ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -672,10 +704,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="む"
+                    android:text="ム"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -690,10 +723,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="め"
+                    android:text="メ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -708,10 +742,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="も"
+                    android:text="モ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -740,10 +775,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="や"
+                    android:text="ヤ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -765,10 +801,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ゆ"
+                    android:text="ユ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -790,10 +827,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="よ"
+                    android:text="ヨ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -823,10 +861,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ら"
+                    android:text="ラ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -841,10 +880,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="り"
+                    android:text="リ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -859,10 +899,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="る"
+                    android:text="ル"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -877,10 +918,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="れ"
+                    android:text="レ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -895,10 +937,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ろ"
+                    android:text="ロ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -925,10 +968,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="わ"
+                    android:text="ワ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -964,10 +1008,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="を"
+                    android:text="ヲ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -1008,10 +1053,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ん"
+                    android:text="ン"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -1107,10 +1153,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="が"
+                    android:text="ガ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -1126,10 +1173,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ぎ"
+                    android:text="ギ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -1145,10 +1193,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ぐ"
+                    android:text="グ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -1164,10 +1213,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="げ"
+                    android:text="ゲ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -1183,10 +1233,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ご"
+                    android:text="ゴ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -1213,10 +1264,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ざ"
+                    android:text="ザ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -1232,10 +1284,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="じ"
+                    android:text="ジ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -1251,10 +1304,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ず"
+                    android:text="ズ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -1270,10 +1324,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ぜ"
+                    android:text="ゼ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -1289,10 +1344,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ぞ"
+                    android:text="ゾ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -1338,10 +1394,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ぢ"
+                    android:text="ヂ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -1357,10 +1414,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="づ"
+                    android:text="ヅ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -1376,10 +1434,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="で"
+                    android:text="デ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -1395,10 +1454,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ど"
+                    android:text="ド"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -1424,10 +1484,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ば"
+                    android:text="バ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -1443,10 +1504,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="び"
+                    android:text="ビ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -1462,10 +1524,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ぶ"
+                    android:text="ブ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -1481,10 +1544,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="べ"
+                    android:text="ベ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -1500,10 +1564,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ぼ"
+                    android:text="ボ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -1530,10 +1595,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ぱ"
+                    android:text="パ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -1549,10 +1615,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ぴ"
+                    android:text="ピ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -1568,10 +1635,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ぷ"
+                    android:text="プ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -1587,10 +1655,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ぺ"
+                    android:text="ペ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -1606,10 +1675,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ぽ"
+                    android:text="ポ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -1645,10 +1715,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="きゃ"
+                    android:text="キャ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -1664,10 +1735,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="きゅ"
+                    android:text="キュ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -1683,10 +1755,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="きょ"
+                    android:text="キョ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -1714,10 +1787,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ぎゃ"
+                    android:text="ギャ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -1733,10 +1807,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ぎゅ"
+                    android:text="ギュ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -1752,10 +1827,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ぎょ"
+                    android:text="ギョ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -1782,10 +1858,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="しゃ"
+                    android:text="シャ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -1801,10 +1878,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="しゅ"
+                    android:text="シュ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -1820,10 +1898,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="しょ"
+                    android:text="ショ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -1850,10 +1929,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="じゃ"
+                    android:text="ジャ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -1869,10 +1949,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="じゅ"
+                    android:text="ジュ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -1888,10 +1969,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="じょ"
+                    android:text="ジョ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -1918,10 +2000,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="にゃ"
+                    android:text="ニャ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -1937,10 +2020,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="にゅ"
+                    android:text="ニュ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -1956,10 +2040,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="にょ"
+                    android:text="ニョ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -1986,10 +2071,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ひゃ"
+                    android:text="ヒャ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -2005,10 +2091,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ひゅ"
+                    android:text="ヒュ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -2024,10 +2111,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ひょ"
+                    android:text="ヒョ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -2054,10 +2142,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="びゃ"
+                    android:text="ビャ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -2073,10 +2162,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="びゅ"
+                    android:text="ビュ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -2092,10 +2182,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="びょ"
+                    android:text="ビョ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -2122,10 +2213,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ぴゃ"
+                    android:text="ピャ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -2141,10 +2233,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ぴゅ"
+                    android:text="ピュ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -2160,10 +2253,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ぴょ"
+                    android:text="ピョ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -2190,10 +2284,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="みゃ"
+                    android:text="ミャ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -2209,10 +2304,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="みゅ"
+                    android:text="ミュ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -2228,10 +2324,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="みょ"
+                    android:text="ミョ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -2258,10 +2355,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="りゃ"
+                    android:text="リャ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -2277,10 +2375,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="りゅ"
+                    android:text="リュ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -2296,10 +2395,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="りょ"
+                    android:text="リョ"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
