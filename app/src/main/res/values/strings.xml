@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">test</string>
+    <string name="hiragana_character">あ</string>
+    <string name="katakana_character">ソ</string>
+    <string name="desc_test">test2</string>
+    <string name="Hiragana_label">Hiragana</string>
+    <string name="Katakana_label">Katakana</string>
+    <string name="Passer_label">Passer</string>
+    <string name="Soumettre_label">Soumettre</string>
+    <string name="hint_label">Réponse</string>
+    <string name="kana_table_button_text">Table des Kana</string>
+    <string name="app_title">HaruHana</string>
+</resources>
