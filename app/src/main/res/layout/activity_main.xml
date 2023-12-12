@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#003543">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="103dp"
+        android:layout_height="89dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/logo"
+        android:contentDescription="logo"/>
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/app_title"
+        android:textSize="24sp"
+        android:textColor="#fff5d6" />
+
+    <RelativeLayout
+        android:id="@+id/hiragana_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/border_button_background"
+        android:layout_below="@id/app_name">
+
+        <TextView
+            android:id="@+id/hiragana_solid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/rounded_button_background"
+            android:padding="8dp"
+            android:text="HIRAGANA"
+            android:textColor="@color/main_color"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ひ ら が な"
+            android:textStyle="bold"
+            android:textColor="@color/second_color"
+            android:padding="8dp"
+            android:layout_toEndOf="@id/hiragana_solid"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/katakana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/border_button_background"
+        android:layout_below="@id/hiragana_button">
+
+        <TextView
+            android:id="@+id/katakana_solid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:background="@drawable/rounded_button_background"
+            android:text="KATAKANA"
+            android:textStyle="bold"
+            android:textColor="@color/main_color"
+            android:padding="8dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="カ タ カ ナ"
+            android:textStyle="bold"
+            android:textColor="@color/second_color"
+            android:padding="8dp"
+            android:layout_toEndOf="@id/katakana_solid"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/kana_table_button"
+        android:layout_width="226dp"
+        android:layout_height="49dp"
+        android:layout_below="@id/katakana"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="94dp"
+        android:background="@drawable/button_background"
+        android:text="@string/kana_table_button_text"
+        android:textColor="#003543" />
+
+</RelativeLayout>
