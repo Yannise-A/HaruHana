@@ -70,15 +70,25 @@ class KatakanaActivity : AppCompatActivity() {
         val userAnswer = answerInput.text.toString().lowercase()
         val correctAnswer = katakanaListe[currentKana] ?: ""
 
+        val soumettreButton: Button = findViewById(R.id.submit_button)
+        val passerButton: Button = findViewById(R.id.passer_button)
+
+        soumettreButton.isEnabled = false
+        passerButton.isEnabled = false
+
         if (userAnswer == correctAnswer) {
             cardFrame.setBackgroundResource(R.drawable.correct_answer)
         } else {
             cardFrame.setBackgroundResource(R.drawable.wrong_answer)
+            answerInput.setText("Réponse : $correctAnswer")
         }
 
         cardFrame.postDelayed({
             setRandomKatakana(currentKana)
             cardFrame.setBackgroundResource(R.drawable.letter_card)
+            soumettreButton.isEnabled = true
+            passerButton.isEnabled = true
+            answerInput.setText("")
         }, 2000)
     }
 }

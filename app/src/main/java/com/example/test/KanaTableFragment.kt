@@ -45,7 +45,7 @@ class KanaTableFragment : BottomSheetDialogFragment() {
                 override fun onStateChanged(bottomSheet: View, newState: Int) {
                     if (newState == BottomSheetBehavior.STATE_EXPANDED) {
                         // Vous pouvez définir la hauteur maximale ici
-                        bottomSheet.layoutParams.height = (resources.displayMetrics.heightPixels * 0.5).toInt()
+                        bottomSheet.layoutParams.height = (resources.displayMetrics.heightPixels * 0.92).toInt()
                         bottomSheet.requestLayout()
                     }
                 }
