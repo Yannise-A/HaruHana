@@ -10,5 +10,9 @@
         <item name="android:padding">10dp</item>
         <!-- Add other styling properties as needed -->
     </style>
+    <style name="SplashScreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/second_color</item>
+    </style>
+
 
 </resources>
