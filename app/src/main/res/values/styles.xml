@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <!-- Style for Kana Table Button -->
     <style name="KanaTableButtonStyle" parent="Widget.AppCompat.Button">
         <item name="android:background">@drawable/button_background</item>
@@ -12,6 +11,14 @@
     </style>
     <style name="SplashScreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:windowBackground">@color/second_color</item>
+    </style>
+
+    <style name="ToggleButtonStyle" parent="android:Widget.Button.Toggle">
+        <item name="android:background">@drawable/toggle_selector</item> <!-- Adjust this with your selector -->
+        <item name="android:textColor">@color/white</item> <!-- Adjust this with your color selector -->
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">10dp</item>
     </style>
 
 

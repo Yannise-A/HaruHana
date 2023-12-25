@@ -1,0 +1,151 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@drawable/dialog_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/options_label"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp"/>
+
+    <!-- Section Hiragana -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Hiragana_label"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp"
+        android:textColor="@color/white"
+    />
+
+
+    <!-- Boutons pour Hiragana -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingBottom="16dp">
+
+        <ToggleButton
+            android:id="@+id/toggle_hiragana_gojuon"
+            style="@style/ToggleButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="48dp"
+            android:textOn="Gojuon"
+            android:textOff="Gojuon"
+            android:layout_margin="8dp"/>
+
+        <ToggleButton
+            android:id="@+id/toggle_hiragana_dakuon_handakuon"
+            style="@style/ToggleButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="48dp"
+            android:textOn="Dakuon Handakuon"
+            android:textOff="Dakuon Handakuon"
+            android:layout_margin="8dp"/>
+
+        <ToggleButton
+            android:id="@+id/toggle_hiragana_yoon"
+            style="@style/ToggleButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="48dp"
+            android:textOn="Yoon"
+            android:textOff="Yoon"
+            android:layout_margin="8dp"/>
+    </LinearLayout>
+
+    <!-- Section Katakana -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Katakana_label"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp"
+        android:textColor="@color/white"
+        />
+
+    <!-- Boutons pour Katakana -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingBottom="16dp">
+
+        <ToggleButton
+            android:id="@+id/toggle_katakana_gojuon"
+            style="@style/ToggleButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="48dp"
+            android:textOn="Gojuon"
+            android:textOff="Gojuon"
+            android:layout_margin="8dp"/>
+
+        <ToggleButton
+            android:id="@+id/toggle_katakana_dakuon_handakuon"
+            style="@style/ToggleButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="48dp"
+            android:textOn="Dakuon Handakuon"
+            android:textOff="Dakuon Handakuon"
+            android:layout_margin="8dp"/>
+
+        <ToggleButton
+            android:id="@+id/toggle_katakana_yoon"
+            style="@style/ToggleButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="48dp"
+            android:minWidth="48dp"
+            android:padding="12dp"
+            android:textOn="Yoon"
+            android:textOff="Yoon"
+            android:layout_margin="8dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:paddingTop="16dp">
+
+        <Button
+            android:id="@+id/button_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Annuler"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/button_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_ok"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>
+
+

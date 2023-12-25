@@ -4,8 +4,11 @@
     <color name="white">#FFFFFFFF</color>
     <color name="main_color">#003543</color>
     <color name="second_color">#fff5d6</color>
+    <color name="second_click_color">#dfd8c3</color>
     <color name="third_color">#ff8f7e</color>
     <color name="correct_answer">#00ff23</color>
     <color name="wrong_answer">#ff2d00</color>
     <color name="bandeau">#228093</color>
+    <color name="toggle_button_pressed">#004558</color>
+    <color name="toggle_button_normal">#00151B</color>
 </resources>

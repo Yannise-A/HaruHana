@@ -1,0 +1,16 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Lorsque le bouton est activé/pressé -->
+    <item android:state_checked="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/toggle_button_pressed" /> <!-- Couleur de fond quand activé -->
+            <corners android:radius="50dp" /> <!-- Coins arrondis -->
+        </shape>
+    </item>
+    <!-- Lorsque le bouton est désactivé/non pressé -->
+    <item android:state_checked="false">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/toggle_button_normal" /> <!-- Couleur de fond par défaut -->
+            <corners android:radius="50dp" /> <!-- Coins arrondis -->
+        </shape>
+    </item>
+</selector>

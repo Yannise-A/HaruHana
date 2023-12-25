@@ -7,6 +7,7 @@ import android.widget.FrameLayout
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import android.content.SharedPreferences
 import androidx.core.content.ContextCompat
 import kotlin.random.Random
 
@@ -25,31 +26,55 @@ class HiraganaActivity : AppCompatActivity() {
         "わ" to "wa", "を" to "wo", "ん" to "n"
     )
 
+    private val dakuonHandakuonSet = mapOf(
+        "が" to "ga", "ぎ" to "gi", "ぐ" to "gu", "げ" to "ge", "ご" to "go",
+        "ざ" to "za", "じ" to "ji", "ず" to "zu", "ぜ" to "ze", "ぞ" to "zo",
+        "だ" to "da", "ぢ" to "ji", "づ" to "zu", "で" to "de", "ど" to "do",
+        "ば" to "ba", "び" to "bi", "ぶ" to "bu", "べ" to "be", "ぼ" to "bo",
+        "ぱ" to "pa", "ぴ" to "pi", "ぷ" to "pu", "ぺ" to "pe", "ぽ" to "po"
+    )
+
+    private val yoonSet = mapOf(
+        "きゃ" to "kya", "きゅ" to "kyu", "きょ" to "kyo",
+        "しゃ" to "sha", "しゅ" to "shu", "しょ" to "sho",
+        "ちゃ" to "cha", "ちゅ" to "chu", "ちょ" to "cho",
+        "にゃ" to "nya", "にゅ" to "nyu", "にょ" to "nyo",
+        "ひゃ" to "hya", "ひゅ" to "hyu", "ひょ" to "hyo",
+        "みゃ" to "mya", "みゅ" to "myu", "みょ" to "myo",
+        "りゃ" to "rya", "りゅ" to "ryu", "りょ" to "ryo",
+        "ぎゃ" to "gya", "ぎゅ" to "gyu", "ぎょ" to "gyo",
+        "じゃ" to "ja", "じゅ" to "ju", "じょ" to "jo",
+        "びゃ" to "bya", "びゅ" to "byu", "びょ" to "byo",
+        "ぴゃ" to "pya", "ぴゅ" to "pyu", "ぴょ" to "pyo"
+    )
+
     private lateinit var currentKana: String
     private lateinit var hiraganaTextView: TextView
     private lateinit var answerInput: EditText
     private lateinit var cardFrame: FrameLayout
+    private lateinit var preferences: SharedPreferences
+
+    private val allHiragana = hiraganaListe + dakuonHandakuonSet + yoonSet
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.hiragana)
 
+        // Initialisation des vues
         cardFrame = findViewById(R.id.card_frame)
-
-        val backButton: ImageView = findViewById(R.id.back_button)
-        backButton.setOnClickListener {
-            finish()
-        }
-
-
         hiraganaTextView = findViewById(R.id.hiragana_character)
         answerInput = findViewById(R.id.answer_input)
         val soumettreButton: Button = findViewById(R.id.submit_button)
         val passerButton: Button = findViewById(R.id.passer_button)
+        val backButton: ImageView = findViewById(R.id.back_button)
 
+        // Chargement des préférences
+        preferences = getSharedPreferences("KanaPreferences", MODE_PRIVATE)
 
-
-        setRandomHiragana()
+        // Définir le comportement des boutons
+        backButton.setOnClickListener {
+            finish()
+        }
 
         soumettreButton.setOnClickListener {
             checkAnswer()
@@ -58,13 +83,26 @@ class HiraganaActivity : AppCompatActivity() {
         passerButton.setOnClickListener {
             setRandomHiragana()
         }
+
+        // Initialiser le premier caractère Hiragana
+        setRandomHiragana()
     }
 
     private fun setRandomHiragana(exclude: String? = null) {
-        val availableKana = if(exclude != null ) {
-            hiraganaListe.keys.filter{it != exclude}
-        }else{
-            hiraganaListe.keys.toList()
+        val gojuonSelected = preferences.getBoolean("Gojuon", true)
+        val dakuonHandakuonSelected = preferences.getBoolean("DakuonHandakuon", false)
+        val yoonSelected = preferences.getBoolean("Yoon", false)
+
+        val filteredKana = allHiragana.filterKeys {
+            (gojuonSelected && it in hiraganaListe) ||
+                    (dakuonHandakuonSelected && it in dakuonHandakuonSet) ||
+                    (yoonSelected && it in yoonSet)
+        }.keys
+
+        val availableKana = if (exclude != null) {
+            filteredKana - exclude
+        } else {
+            filteredKana
         }
 
         currentKana = availableKana.random()
