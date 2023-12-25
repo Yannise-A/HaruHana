@@ -7,6 +7,7 @@ import android.widget.FrameLayout
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import android.content.SharedPreferences
 
 class KatakanaActivity : AppCompatActivity() {
 
@@ -23,14 +24,42 @@ class KatakanaActivity : AppCompatActivity() {
         "ワ" to "wa", "ヲ" to "wo", "ン" to "n"
     )
 
+    private val dakuonHandakuonSet = mapOf(
+        "ガ" to "ga", "ギ" to "gi", "グ" to "gu", "ゲ" to "ge", "ゴ" to "go",
+        "ザ" to "za", "ジ" to "ji", "ズ" to "zu", "ゼ" to "ze", "ゾ" to "zo",
+        "ダ" to "da", "ヂ" to "ji", "ヅ" to "zu", "デ" to "de", "ド" to "do",
+        "バ" to "ba", "ビ" to "bi", "ブ" to "bu", "ベ" to "be", "ボ" to "bo",
+        "パ" to "pa", "ピ" to "pi", "プ" to "pu", "ペ" to "pe", "ポ" to "po"
+    )
+    private val yoonSet = mapOf(
+        "キャ" to "kya", "キュ" to "kyu", "キョ" to "kyo",
+        "シャ" to "sha", "シュ" to "shu", "ショ" to "sho",
+        "チャ" to "cha", "チュ" to "chu", "チョ" to "cho",
+        "ニャ" to "nya", "ニュ" to "nyu", "ニョ" to "nyo",
+        "ヒャ" to "hya", "ヒュ" to "hyu", "ヒョ" to "hyo",
+        "ミャ" to "mya", "ミュ" to "myu", "ミョ" to "myo",
+        "リャ" to "rya", "リュ" to "ryu", "リョ" to "ryo",
+        "ギャ" to "gya", "ギュ" to "gyu", "ギョ" to "gyo",
+        "ジャ" to "ja", "ジュ" to "ju", "ジョ" to "jo",
+        "ビャ" to "bya", "ビュ" to "byu", "ビョ" to "byo",
+        "ピャ" to "pya", "ピュ" to "pyu", "ピョ" to "pyo"
+    )
+
+
+
     private lateinit var currentKana: String
     private lateinit var katakanaTextView: TextView
     private lateinit var answerInput: EditText
     private lateinit var cardFrame: FrameLayout
+    private lateinit var preferences: SharedPreferences
+
+    private val allKatakana = katakanaListe + dakuonHandakuonSet + yoonSet
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.katakana)
+
+        preferences = getSharedPreferences("KanaPreferences", MODE_PRIVATE)
 
         cardFrame = findViewById(R.id.card_frame)
 
@@ -56,10 +85,20 @@ class KatakanaActivity : AppCompatActivity() {
     }
 
     private fun setRandomKatakana(exclude: String? = null) {
+        val gojuonSelected = preferences.getBoolean("KatakanaGojuon", true)
+        val dakuonHandakuonSelected = preferences.getBoolean("KatakanaDakuonHandakuon", false)
+        val yoonSelected = preferences.getBoolean("KatakanaYoon", false)
+
+        val filteredKana = allKatakana.filterKeys {
+            (gojuonSelected && it in katakanaListe) ||
+                    (dakuonHandakuonSelected && it in dakuonHandakuonSet) ||
+                    (yoonSelected && it in yoonSet)
+        }.keys
+
         val availableKana = if (exclude != null) {
-            katakanaListe.keys.filter { it != exclude }
+            filteredKana - exclude
         } else {
-            katakanaListe.keys.toList()
+            filteredKana
         }
 
         currentKana = availableKana.random()
@@ -67,7 +106,7 @@ class KatakanaActivity : AppCompatActivity() {
     }
 
     private fun checkAnswer() {
-        val userAnswer = answerInput.text.toString().lowercase()
+        val userAnswer = answerInput.text.toString().trim().lowercase()
         val correctAnswer = katakanaListe[currentKana] ?: ""
 
         val soumettreButton: Button = findViewById(R.id.submit_button)
@@ -80,7 +119,8 @@ class KatakanaActivity : AppCompatActivity() {
             cardFrame.setBackgroundResource(R.drawable.correct_answer)
         } else {
             cardFrame.setBackgroundResource(R.drawable.wrong_answer)
-            answerInput.setText("Réponse : $correctAnswer")
+            val responseText = "Réponse : ${correctAnswer.uppercase()}"
+            answerInput.setText(responseText)
         }
 
         cardFrame.postDelayed({

@@ -9,6 +9,6 @@
     <color name="correct_answer">#00ff23</color>
     <color name="wrong_answer">#ff2d00</color>
     <color name="bandeau">#228093</color>
-    <color name="toggle_button_pressed">#004558</color>
-    <color name="toggle_button_normal">#00151B</color>
+    <color name="toggle_button_normal">#004558</color>
+    <color name="toggle_button_pressed">#00151B</color>
 </resources>

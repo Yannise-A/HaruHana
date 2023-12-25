@@ -87,9 +87,10 @@ class HiraganaActivity : AppCompatActivity() {
     }
 
     private fun setRandomHiragana(exclude: String? = null) {
-        val gojuonSelected = preferences.getBoolean("Gojuon", true)
-        val dakuonHandakuonSelected = preferences.getBoolean("DakuonHandakuon", false)
-        val yoonSelected = preferences.getBoolean("Yoon", false)
+        // Assurez-vous que les clés correspondent à celles définies dans MainActivity
+        val gojuonSelected = preferences.getBoolean("HiraganaGojuon", true)
+        val dakuonHandakuonSelected = preferences.getBoolean("HiraganaDakuonHandakuon", false)
+        val yoonSelected = preferences.getBoolean("HiraganaYoon", false)
 
         val filteredKana = allHiragana.filterKeys {
             (gojuonSelected && it in hiraganaListe) ||
