@@ -120,7 +120,8 @@ class HiraganaActivity : AppCompatActivity() {
             cardFrame.setBackgroundResource(R.drawable.correct_answer)
         }else{
             cardFrame.setBackgroundResource(R.drawable.wrong_answer)
-            answerInput.setText("Réponse : $correctAnswer")
+            val responseText = "Réponse : ${correctAnswer.uppercase()}"
+            answerInput.setText(responseText)
         }
 
         cardFrame.postDelayed({
