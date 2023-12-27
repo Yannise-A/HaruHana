@@ -1,6 +1,7 @@
 package com.example.test
 
 import android.os.Bundle
+import android.os.Build
 import android.widget.Button
 import android.widget.EditText
 import android.widget.FrameLayout
@@ -8,6 +9,10 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import android.content.SharedPreferences
+import android.os.VibrationEffect
+import androidx.core.content.ContextCompat
+import android.os.Vibrator
+import android.util.Log
 
 class HiraganaActivity : AppCompatActivity() {
 
@@ -123,6 +128,7 @@ class HiraganaActivity : AppCompatActivity() {
             cardFrame.setBackgroundResource(R.drawable.wrong_answer)
             val responseText = "Réponse : ${correctAnswer.uppercase()}"
             answerInput.setText(responseText)
+            vibratePhone()
         }
 
         cardFrame.postDelayed({
@@ -132,5 +138,21 @@ class HiraganaActivity : AppCompatActivity() {
             passerButton.isEnabled = true
             answerInput.setText("")
         },2000 )
+    }
+
+    private fun vibratePhone() {
+        val vibrator = ContextCompat.getSystemService(this, Vibrator::class.java)
+        vibrator?.let {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                // Pour Android Oreo (API 26) et plus
+                val vibrationEffect = VibrationEffect.createOneShot(500, VibrationEffect.DEFAULT_AMPLITUDE)
+                it.vibrate(vibrationEffect)
+                Log.d("Vibration", "Vibration for 500ms (Oreo and above)")
+            } else {
+                // Pour les versions antérieures
+                it.vibrate(500)
+                Log.d("Vibration", "Vibration for 500ms (Pre-Oreo)")
+            }
+        }
     }
 }
