@@ -36,7 +36,7 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="27dp"
-        android:background="@drawable/button_options"
+        android:background="@drawable/button_background"
         android:onClick="showOptionsDialog"
         android:textColor="#003543"
         android:text="Options" />

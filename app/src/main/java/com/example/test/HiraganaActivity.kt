@@ -1,7 +1,6 @@
 package com.example.test
 
 import android.os.Bundle
-import android.os.Build
 import android.widget.Button
 import android.widget.EditText
 import android.widget.FrameLayout
@@ -143,16 +142,9 @@ class HiraganaActivity : AppCompatActivity() {
     private fun vibratePhone() {
         val vibrator = ContextCompat.getSystemService(this, Vibrator::class.java)
         vibrator?.let {
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-                // Pour Android Oreo (API 26) et plus
-                val vibrationEffect = VibrationEffect.createOneShot(500, VibrationEffect.DEFAULT_AMPLITUDE)
-                it.vibrate(vibrationEffect)
-                Log.d("Vibration", "Vibration for 500ms (Oreo and above)")
-            } else {
-                // Pour les versions antérieures
-                it.vibrate(500)
-                Log.d("Vibration", "Vibration for 500ms (Pre-Oreo)")
-            }
+            val vibrationEffect = VibrationEffect.createOneShot(500, VibrationEffect.DEFAULT_AMPLITUDE)
+            it.vibrate(vibrationEffect)
+            Log.d("Vibration", "Vibration for 500ms (API 26+)")
         }
     }
 }
